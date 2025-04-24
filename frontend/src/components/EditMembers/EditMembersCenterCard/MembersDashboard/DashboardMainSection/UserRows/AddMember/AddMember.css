@@ -1,0 +1,17 @@
+.add-member button{
+
+background-color: lightseagreen;
+width: 5em;
+font-family: Arial, Helvetica, sans-serif;
+border: 0;
+width: 10em;
+height: 4em;
+box-shadow: 0px 0px 10px;
+}
+.add-member button:hover{
+
+
+    background-color: rgb(26, 151, 145);
+
+
+}

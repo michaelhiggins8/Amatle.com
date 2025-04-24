@@ -1,0 +1,23 @@
+.admin-nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .admin-nav-menu li {
+    flex: 1;                /* ✅ THIS is what spreads the buttons */
+    list-style: none;
+    text-align: center;     /* ✅ Center the <a> inside each li */
+  }
+  
+  .admin-nav-menu li a {
+    text-decoration: none;   
+    background-color: #f4f1e1; 
+    box-shadow: 0px 0px 2px black;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  

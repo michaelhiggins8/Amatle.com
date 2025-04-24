@@ -1,0 +1,68 @@
+.doc-update-sub-card{
+
+
+
+    border: 2px solid black;
+    height: 85%;
+    width: 40%;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(1, 1, 1, 0.1); 
+border-radius: 10px;
+backdrop-filter: blur(10px); 
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+.first-hedr-doc{
+
+
+    
+    text-align: center;
+    color:#f4f1e1;
+}
+
+
+
+.doc-update-sub-card a{
+
+
+text-decoration: none;
+background-color: #f4f1e1;
+
+color: lightseagreen;
+padding: 0.5em;
+font-size: large;
+border-radius: 0.3em;
+font-weight: 600;
+border: 1px solid lightseagreen;
+margin-top: 2em;
+
+}
+
+.doc-update-sub-card a:hover{
+
+
+background-color: transparent;
+color: #f4f1e1;;
+border: 1px solid #f4f1e1;
+
+}
+
+
+.second-hedr-doc{
+
+
+font-size: 3em;
+padding-top: 0;
+margin-top: 0.15em;
+
+
+}

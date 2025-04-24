@@ -1,0 +1,35 @@
+.querry-show-card{
+
+border: 1px solid black;
+height: 95vh;
+width: 80vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+background: rgba(255, 255, 255, 0.1);      /* semi-transparent white */
+backdrop-filter: blur(12px);               /* blur behind */
+-webkit-backdrop-filter: blur(12px);       /* Safari support */
+border: 1px solid rgba(255, 255, 255, 0.2); /* soft border */
+border-radius: 16px;
+padding: 2rem;
+color: white;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+
+
+
+}
+
+.querry-show-card h1{
+
+    margin-top: 10vh;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.querry-show-card video{
+    width: 50vw;
+    
+
+}

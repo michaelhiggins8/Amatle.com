@@ -1,0 +1,54 @@
+.hero-left-section{
+
+
+height: 50vh;
+width: 50vw;
+
+
+
+}
+
+
+.hero-left-section h1{
+
+font-size: 7.5vh;
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+
+}
+
+.hero-left-section p{
+
+    font-size: 2vh;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+
+    
+    }
+
+
+    
+
+    .hero-left-section button{
+
+        background-color: lightseagreen;
+        border-radius: 0.3em;
+        color: #f4f1e1;
+        border: 1px solid lightseagreen;
+        width: 8vw;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    .hero-left-section button:hover{
+
+        background-color: #f4f1e1;
+        border-radius: 0.3em;
+        color: lightseagreen;
+        border: 1px solid lightseagreen;
+        width: 8vw;
+        height: 5vh;
+    }

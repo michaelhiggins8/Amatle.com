@@ -1,0 +1,45 @@
+.check-out-page{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.left-side{
+    
+    margin-left: 1em;
+
+ 
+
+
+}
+
+
+.left-side h1{
+
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left-side img{
+
+width: 30em;
+border-radius: 0.4em;
+
+
+
+
+}
+
+
+.elements{
+
+
+    margin-top: 3em;
+    margin-right: 5em;
+
+    
+}

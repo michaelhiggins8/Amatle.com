@@ -1,0 +1,36 @@
+.payment-page{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.title-section{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 6em;
+margin-bottom: 5em;
+
+}
+
+.title-section h1{
+
+margin-bottom: 0px;
+margin-top: 0px;
+font-size: 5em;
+
+}
+
+
+.title-section p{
+
+
+    margin-top: 3em;
+}

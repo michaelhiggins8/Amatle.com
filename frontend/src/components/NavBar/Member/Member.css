@@ -1,0 +1,21 @@
+.nav-menu{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-menu li{
+
+    list-style: none;
+    
+    }
+    
+    
+    .nav-menu li a{
+    
+    text-decoration: none;    
+        }
+    

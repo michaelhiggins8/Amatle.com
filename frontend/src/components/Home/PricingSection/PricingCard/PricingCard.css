@@ -1,0 +1,57 @@
+.pricing-card{
+
+height: 65vh;
+border:0;
+width: 30vw;
+box-shadow: 0px 0px 5px;
+border-radius: 0.5em;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+background-color: #f4f1e1;
+margin-left:1vw ;
+margin-right: 1vw;
+
+}
+
+
+.pricing-card .lottie-animation{
+
+width: 50%;
+margin-top: 10%
+
+}
+
+
+.pricing-card h1{
+
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+margin-bottom: 0;
+
+}
+
+
+.pricing-card p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: darkgrey;
+    margin-top: 1vh;
+    
+    }
+
+    .pricing-card button{
+
+
+        background-color: #f4f1e1;
+        box-shadow: 0px 0px 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        cursor: pointer;
+        width: 80%;
+        height: 10%;
+        font-size: 1.5vw;
+        margin-top: 3vh;
+    }

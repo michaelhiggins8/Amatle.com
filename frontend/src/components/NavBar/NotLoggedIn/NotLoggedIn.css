@@ -1,0 +1,140 @@
+.not-in-nav-menu{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.not-in-nav-menu li{
+
+    list-style: none;
+    
+    }
+    
+    
+    .not-in-nav-menu li a{
+    
+    text-decoration: none;    
+   
+        }
+
+
+
+
+
+
+.home-button{
+
+    margin-right: 25%;
+}
+
+
+
+
+.home-button a{
+
+    color:black;
+
+}
+
+
+
+.home-button a:hover{
+
+
+text-decoration: underline;
+
+
+}
+
+
+.home-button img{
+
+width: 10vw;
+
+}
+
+.payment-button{
+
+
+margin-right: 30%;
+
+}
+
+.payment-button a{
+
+
+    color:black;
+    
+    
+    }
+
+
+    .payment-button a:hover{
+
+
+        text-decoration: underline;
+        
+        
+        }
+
+.log-in-button{
+
+ 
+    color:black;
+    margin-left: 30%;
+background-color: lightgray;
+padding: 0.5em 1em 0.5em 1em;
+border-radius: 0.3em;
+
+}
+
+
+
+.log-in-button a{
+
+
+    color:black;
+}
+
+
+
+
+.log-in-button:hover{
+
+background-color: rgb(172, 172, 172) ;
+
+}
+
+.sign-up-button{
+
+    color:black;
+    margin-left: 2%;
+    background-color: #20b2aa;
+    border: 0;
+    
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 0.3em;
+    
+
+
+}
+    
+
+.sign-up-button a{
+
+
+    color:#f4f1e1 ;
+
+}
+
+
+.sign-up-button:hover{
+
+
+    background-color: #198b85;
+
+}

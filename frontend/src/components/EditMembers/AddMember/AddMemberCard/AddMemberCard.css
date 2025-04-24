@@ -1,0 +1,63 @@
+.add-member-card{
+
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+background-color: white;
+width: 50%;
+left: 25%;
+height: 40em;
+border-radius: 1em;
+box-shadow: 0px 0px 5px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.add-member-card input{
+
+
+width:40%;
+height: 2em;
+margin-bottom: 2em;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.add-button{
+
+    width: 40%;
+    margin-top: 2em;
+}
+
+.exit-button{
+
+
+    position: absolute;
+    left:95%;
+    bottom:91%;
+    border-radius: 5em;
+    
+
+}
+
+

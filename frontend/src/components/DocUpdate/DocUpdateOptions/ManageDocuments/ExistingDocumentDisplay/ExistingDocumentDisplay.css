@@ -1,0 +1,37 @@
+.existing-document-display{
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.existing-document-display h2{
+
+
+
+    display: inline;
+
+
+
+}
+
+
+
+.existing-document-display h4{
+
+
+
+    display: inline;
+    color: gray;
+    font-weight: 200;
+
+
+
+}
+

@@ -1,0 +1,8 @@
+.hero-card{
+margin-top: 15vh;
+    width:90vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

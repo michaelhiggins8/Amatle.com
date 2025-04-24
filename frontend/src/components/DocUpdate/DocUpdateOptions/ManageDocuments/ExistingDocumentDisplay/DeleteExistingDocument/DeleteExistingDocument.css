@@ -1,0 +1,20 @@
+
+.delete-doc button{
+
+
+
+    background-color: transparent;
+    border: 0;
+    height: 2.5em;
+    width: 2.5em;
+    box-shadow: 0px 0px 5px;
+    
+    }
+    
+    .delete-doc button:hover{
+    
+    
+        background-color: black;
+    
+    }
+    

@@ -1,0 +1,25 @@
+.column-wrapper-step-two{
+
+
+
+
+display: flex;
+
+
+}
+
+
+.first-column-step-two{
+
+
+    width: 30vw;
+    height: 100vh;
+}
+
+.main-column-two{
+
+    width: 40vw;
+    height: 100vh;
+    margin-top: 1%;
+
+}

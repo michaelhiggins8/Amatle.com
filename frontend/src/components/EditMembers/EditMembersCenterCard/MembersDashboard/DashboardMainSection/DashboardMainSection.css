@@ -1,0 +1,14 @@
+.dash-main-section-first-row{
+
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dash-main-section-first-row h3{
+
+
+    color:darkgray;
+}

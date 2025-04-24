@@ -1,0 +1,109 @@
+.bulk-upload-step-two-center-card{
+
+
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.back-forward-row-wrapper-two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.back-forward-row-wrapper-two a{
+
+
+text-decoration:none;
+padding:0.5em;
+border-radius: 0.2em;
+
+}
+
+
+.bulk-two-l1{
+
+
+    background-color: transparent;
+    border: 1px solid grey;
+    color:grey;
+  
+}
+
+
+.bulk-two-l1:hover{
+    background-color: gray;
+    color:#f4f1e1;
+
+
+}
+.bulk-two-l2{
+
+    background-color: grey;
+    color:#f4f1e1;
+    
+
+}
+.bulk-two-l2:hover{
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+
+
+
+}
+
+
+.upload-row{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+ 
+ }
+
+
+ 
+ .upload-row input{
+
+
+   border: 1px dotted black;
+   height: 12em;
+   width: 20em;
+
+ }
+
+
+ .submit-row{
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+
+ .submit-row button{
+    border-radius: 0.4em;
+    height: 4em;
+    width: 20em;
+    background-color: lightseagreen;
+    border: 0;
+    color:#f4f1e1;
+ }
+
+ .submit-row button:hover{
+
+
+background-color: rgb(25, 139, 133);
+
+ }
