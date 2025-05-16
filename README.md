@@ -3,7 +3,7 @@
 Amatle.com is a web app that answers user questions about Homeowners Association (HOA) rules.
 
 This service uses LangChain, OpenAI, and pgvector.  
-Users can choose from three HOA documents and ask questions like “How many dogs can I have?”
+Admin accounts can upload documents member accounts can ask questions such as “How many dogs can I have?”
 
 Live Site: [https://amatle.com](https://amatle.com)  
 Hosted on AWS
