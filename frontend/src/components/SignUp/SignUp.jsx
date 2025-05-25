@@ -31,29 +31,21 @@ export default function SignUp() {
 
 
   const logIn = async () =>{
-
-
-
-
-
     const reponz = await fetch(import.meta.env.VITE_BACKEND_ORIGIN + "/logIn",{
-  
-  
-  method:'POST',
-  headers: {  "Content-Type": "application/json"},
-  body: JSON.stringify({email: signUpData.email,password:signUpData.password}),
-  credentials: "include"
-  
-  
-  
+      method:'POST',
+      headers: {  "Content-Type": "application/json"},
+      body: JSON.stringify({email: signUpData.email,password:signUpData.password}),
+      credentials: "include"
     })
-  
+
     const result = await reponz.json();
-    window.location.reload();
-    console.log(result);
-  
-  
-   }
+    console.log("Login result:", result);
+    
+    // Force reload
+    setTimeout(() => {
+      window.location.href = '/';
+    }, 100);
+  }
 
 
 
@@ -67,25 +59,18 @@ export default function SignUp() {
 
 
 const makeAccount = async() =>{
-
-
   const respoz = await fetch( import.meta.env.VITE_BACKEND_ORIGIN + "/makeAccount",{
-
-
-  method:'POST',
-  headers: {'Content-Type': 'application/json'},
-  body: JSON.stringify({signUpData})
-
+    method:'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ signUpData })
   })
 
-
   if (respoz.ok) {
-    // Only log in if the account was made successfully
     await logIn();
   } else {
-    console.error("Account creation failed");
     const errorText = await respoz.text();
     console.error("Server responded with:", errorText);
+    alert("Signup failed: " + errorText);  // Add user feedback
   }
 } 
 
@@ -106,4 +91,5 @@ const makeAccount = async() =>{
 </div>
     </div>
   )
+  
 }

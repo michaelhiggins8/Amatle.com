@@ -15,11 +15,11 @@ import BulkUpload from "./components/EditMembers/BulkUpload/BulkUpload";
 import MembersDashboard from "./components/EditMembers/EditMembersCenterCard/MembersDashboard/MembersDashboard";
 import BulkUploadStepOne from "./components/EditMembers/BulkUpload/BulkUploadStepOne/BulkUploadStepOne";
 import BulkUploadStepTwo from "./components/EditMembers/BulkUpload/BulkUploadStepTwo/BulkUploadStepTwo";
-
-
 import BulkUploadReference from "./components/DocUpdate/DocUpdateOptions/BulkUploadReference/BulkUploadReference";
 import ManageDocuments from "./components/DocUpdate/DocUpdateOptions/ManageDocuments/ManageDocuments";
 import CreatePassword from "./components/Profile/CreatePassword/CreatePassword";
+import AboutUs from "./components/Home/Footer/AboutUs";
+
 function App() {
 
   return (
@@ -42,19 +42,11 @@ function App() {
           <Route path = "/bulk_upload/step_1" element = <BulkUploadStepOne/>/> 
           <Route path = "/bulk_upload/step_2" element = <BulkUploadStepTwo/>/> 
           <Route path = "/members_dashboard" element = <MembersDashboard/>/> 
-         <Route path = "/upload_docs" element = <BulkUploadReference/>/> 
-         <Route path = "/documents_dashboard" element = <ManageDocuments/>/> 
-         <Route path = "/create_Password" element = <CreatePassword/>/> 
+          <Route path = "/upload_docs" element = <BulkUploadReference/>/> 
+          <Route path = "/documents_dashboard" element = <ManageDocuments/>/> 
+          <Route path = "/create_Password" element = <CreatePassword/>/> 
+          <Route path = "/about" element = <AboutUs/>/>
 
-
-
-
-
-
-
-
-          
-    
         </Routes>
       </div>
     

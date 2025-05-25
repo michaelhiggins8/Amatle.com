@@ -1,140 +1,92 @@
-.not-in-nav-menu{
-
-
+.not-in-nav-menu {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-
-.not-in-nav-menu li{
-
+.not-in-nav-menu li {
     list-style: none;
-    
-    }
-    
-    
-    .not-in-nav-menu li a{
-    
+}
+
+.not-in-nav-menu li a {
     text-decoration: none;    
-   
-        }
-
-
-
-
-
-
-.home-button{
-
-    margin-right: 25%;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #16325c;
+    transition: color 0.2s ease;
 }
 
-
-
-
-.home-button a{
-
-    color:black;
-
+.home-button {
+    flex: 1;
 }
 
-
-
-.home-button a:hover{
-
-
-text-decoration: underline;
-
-
+.home-button img {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
 }
 
-
-.home-button img{
-
-width: 10vw;
-
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-.payment-button{
-
-
-margin-right: 30%;
-
+.log-in-button {
+    color: #16325c;
+    background-color: rgba(32, 178, 170, 0.1);
+    padding: 0.5em 1.2em;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
 }
 
-.payment-button a{
+.log-in-button a {
+    color: #16325c;
+}
 
+.log-in-button:hover {
+    background-color: rgba(32, 178, 170, 0.2);
+}
 
-    color:black;
-    
-    
+.sign-up-button {
+    color: #ffffff;
+    background-color: #20b2aa;
+    padding: 0.5em 1.2em;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.sign-up-button a {
+    color: #ffffff;
+}
+
+.sign-up-button:hover {
+    background-color: #198b85;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .not-in-nav-menu {
+        padding: 0 1rem;
     }
 
+    .home-button img {
+        width: 100px;
+    }
 
-    .payment-button a:hover{
-
-
-        text-decoration: underline;
-        
-        
-        }
-
-.log-in-button{
-
- 
-    color:black;
-    margin-left: 30%;
-background-color: lightgray;
-padding: 0.5em 1em 0.5em 1em;
-border-radius: 0.3em;
-
+    .log-in-button,
+    .sign-up-button {
+        padding: 0.5em 1em;
+    }
 }
 
-
-
-.log-in-button a{
-
-
-    color:black;
-}
-
-
-
-
-.log-in-button:hover{
-
-background-color: rgb(172, 172, 172) ;
-
-}
-
-.sign-up-button{
-
-    color:black;
-    margin-left: 2%;
-    background-color: #20b2aa;
-    border: 0;
-    
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    border-radius: 0.3em;
-    
-
-
-}
-    
-
-.sign-up-button a{
-
-
-    color:#f4f1e1 ;
-
-}
-
-
-.sign-up-button:hover{
-
-
-    background-color: #198b85;
-
+@media (max-width: 480px) {
+    .home-button img {
+        width: 80px;
+    }
 }

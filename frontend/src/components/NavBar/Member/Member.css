@@ -17,5 +17,13 @@
     .nav-menu li a{
     
     text-decoration: none;    
+    font-family: Helvetica, Arial, sans-serif;
         }
+    
+/* Add specific styling for any buttons */
+.nav-menu li a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
     

@@ -1,31 +1,30 @@
 .nav-bar {
-    background-color: rgba(255, 255, 255, 0.1); 
-
+    background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    border-radius: 100px; 
-    height: 5em; 
+    height: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  }
-
-.nav-menu li{
-
-list-style: none;
-
+    z-index: 1000;
+    transition: all 0.3s ease;
 }
 
+.nav-bar.scrolled {
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
 
-.nav-menu li a{
+.nav-menu li {
+    list-style: none;
+}
 
-text-decoration: none;    
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: 100;
-    }
+.nav-menu li a {
+    text-decoration: none;    
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}

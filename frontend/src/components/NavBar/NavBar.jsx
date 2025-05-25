@@ -5,12 +5,15 @@ import "./NavBar.css";
 import Admin from "./Admin/Admin.jsx";
 import Member from './Member/Member.jsx';
 import NotLoggedIn from './NotLoggedIn/NotLoggedIn.jsx';
+import { useScrollNavbar } from './useScrollNavbar';
+
 export default function NavBar() {
 
 
 
 
 const [userStatus,setUserStatus] = useState(null);
+const isScrolled = useScrollNavbar();
 
 
 
@@ -53,7 +56,7 @@ useEffect(()=>{
     <div>
         
 
-    <nav className='nav-bar'>
+    <nav className={`nav-bar ${isScrolled ? 'scrolled' : ''}`}>
         
         
 

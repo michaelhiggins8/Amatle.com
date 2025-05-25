@@ -1,9 +1,62 @@
-.home-page{
+.home-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #f4f6f9 30%,
+        #ffffff 60%,
+        #f4f6f9 100%
+    );
+}
 
-width: 100vw;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-flex-direction: column;
+.home-page > * {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+.home-page > *:first-child {
+    margin-top: -40px; /* Reduced from -80px to move down slightly */
+    height: 100vh;
+}
+
+/* Container utilities */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+/* Spacing utilities for sections */
+.home-page > *:not(:first-child) {
+    margin-top: -4rem; /* Creates overlapping effect between sections */
+}
+
+/* Custom scroll behavior */
+html {
+    scroll-behavior: smooth;
 }

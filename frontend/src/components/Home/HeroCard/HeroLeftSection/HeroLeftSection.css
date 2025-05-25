@@ -1,54 +1,86 @@
-.hero-left-section{
-
-
-height: 50vh;
-width: 50vw;
-
-
-
+.hero-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-
-.hero-left-section h1{
-
-font-size: 7.5vh;
-
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 100;
-
+.hero-left-section h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #16325c;
+    margin: 0;
 }
 
-.hero-left-section p{
+.hero-left-section p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #54698d;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    max-width: 540px;
+}
 
-    font-size: 2vh;
-    color:gray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+.hero-left-section button {
+    background-color: #20b2aa;
+    border-radius: 6px;
+    color: #ffffff;
+    border: 2px solid #20b2aa;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: auto;
+    min-width: 160px;
+}
 
+.hero-left-section button:hover {
+    background-color: #ffffff;
+    color: #20b2aa;
+    transform: translateY(-2px);
+}
 
-    
+@media (max-width: 1024px) {
+    .hero-left-section h1 {
+        font-size: 3rem;
     }
 
+    .hero-left-section p {
+        font-size: 1.125rem;
+    }
+}
 
-    
-
-    .hero-left-section button{
-
-        background-color: lightseagreen;
-        border-radius: 0.3em;
-        color: #f4f1e1;
-        border: 1px solid lightseagreen;
-        width: 8vw;
-        height: 5vh;
-        font-size: 2vh;
+@media (max-width: 768px) {
+    .hero-left-section {
+        align-items: center;
     }
 
-    .hero-left-section button:hover{
-
-        background-color: #f4f1e1;
-        border-radius: 0.3em;
-        color: lightseagreen;
-        border: 1px solid lightseagreen;
-        width: 8vw;
-        height: 5vh;
+    .hero-left-section h1 {
+        font-size: 2.5rem;
+        text-align: center;
     }
+
+    .hero-left-section p {
+        text-align: center;
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero-left-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-left-section p {
+        font-size: 1rem;
+    }
+
+    .hero-left-section button {
+        padding: 0.625rem 1.5rem;
+        font-size: 1rem;
+        min-width: 140px;
+    }
+}
